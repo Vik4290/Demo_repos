@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="35262" started-at="2021-02-11T21:04:45 IST" finished-at="2021-02-11T21:05:20 IST">
+    <groups>
+    </groups>
+    <test name="Demo Test 1" duration-ms="19537" started-at="2021-02-11T21:04:45 IST" finished-at="2021-02-11T21:05:05 IST">
+      <class name="demo.project.practice.Demo1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.project.practice.Demo1@1afd44cb]" name="setup" is-config="true" duration-ms="16859" started-at="2021-02-11T21:04:45 IST" finished-at="2021-02-11T21:05:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:demo.project.practice.Demo1@1afd44cb]" name="launch" duration-ms="797" started-at="2021-02-11T21:05:02 IST" finished-at="2021-02-11T21:05:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.project.practice.Demo1@1afd44cb]" name="teardown" is-config="true" duration-ms="1158" started-at="2021-02-11T21:05:03 IST" finished-at="2021-02-11T21:05:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demo.project.practice.Demo1 -->
+    </test> <!-- Demo Test 1 -->
+    <test name="Demo Test 2" duration-ms="13539" started-at="2021-02-11T21:05:07 IST" finished-at="2021-02-11T21:05:20 IST">
+      <class name="demo.project.practice.TC_02">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.project.practice.TC_02@3bb9a3ff]" name="setup" is-config="true" duration-ms="11390" started-at="2021-02-11T21:05:07 IST" finished-at="2021-02-11T21:05:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:demo.project.practice.TC_02@3bb9a3ff]" name="launch" duration-ms="688" started-at="2021-02-11T21:05:18 IST" finished-at="2021-02-11T21:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.project.practice.TC_02@3bb9a3ff]" name="teardown" is-config="true" duration-ms="966" started-at="2021-02-11T21:05:19 IST" finished-at="2021-02-11T21:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demo.project.practice.TC_02 -->
+    </test> <!-- Demo Test 2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

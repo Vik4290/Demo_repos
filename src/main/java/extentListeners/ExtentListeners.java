@@ -48,7 +48,8 @@ public class ExtentListeners implements ITestListener {
 		String logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " PASSED"+"</b>";		
 		Markup m=MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		
-				testReport.get().pass(m);
+				
+		testReport.get().pass(m);
 		
 				
 				try {
